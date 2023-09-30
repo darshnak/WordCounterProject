@@ -1,0 +1,8 @@
+logging:
+  level:
+    org.springframework.security: DEBUG
+google:
+  cloud:
+    translation:
+      api:
+        key: AIzaSyCnO1Vo1YUV8ZMNs0PK4PAFvM9EiKl2FIY

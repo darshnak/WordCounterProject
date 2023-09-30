@@ -1,0 +1,20 @@
+{
+  "security": {
+    "csrf": {
+      "enabled": false
+    },
+    "basic": {
+      "enabled": true
+    },
+    "ignored": [
+      "/word-counter/add-words"
+    ],
+    "rules": [
+      {
+        "matchers": "/word-counter/count/**",
+        "security": "isAuthenticated()"
+      }
+    ]
+  }
+}
+
